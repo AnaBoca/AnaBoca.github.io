@@ -1,0 +1,26 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/* Space out content a bit */
+#nebula {
+  background-image: url("/content/img/nebula.jpg");
+  height: 400px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+nav {
+  position: fixed;
+  top: 400px;
+  left: 0; }
+
+#anaBoca {
+  padding-top: 20px; }
+  #anaBoca md-card {
+    background-color: white; }
+
+/* Responsive: Portrait tablets and up */

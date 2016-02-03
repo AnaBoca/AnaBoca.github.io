@@ -1,0 +1,119 @@
+html {
+    background-color: #F5F5F5;
+}
+
+body {
+    background-color: #F5F5F5;
+    color: #757575;
+    font-family: 'Roboto','Helvetica','Arial',sans-serif;
+    height: 100%;
+}
+
+h1 {
+    color: #757575;
+    font-family: 'Roboto','Helvetica','Arial',sans-serif;
+    font-size: 55px;
+    font-weight: 200;
+    margin: 0;
+}
+
+h2, h3 {
+    color: #616161;
+    font-family: 'Roboto','Helvetica','Arial',sans-serif;
+    font-weight: 200;
+}
+
+h2 { 
+    font-size: 40px;
+    margin-bottom: 0; 
+}
+
+h3 { font-size: 24px; }
+
+p, li {
+    color: rgba(0,0,0,.87);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+$nebulaHeight: 400px;
+#nebula {
+    background-image: url('/content/img/nebula.jpg');
+    height: $nebulaHeight;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+md-sidenav {
+    position: fixed !important;
+    top: $nebulaHeight;
+    padding-top: 20px;
+    
+    .md-button {
+        margin: 0;
+        padding-left: 20px;
+        text-align: left;
+        
+        &.indent {
+            padding-left: 40px;
+            text-transform: capitalize;
+        }
+    }
+}
+
+#anaBoca {
+    background-color: transparent;
+    position: relative;
+    z-index: 100;
+    
+    md-card {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        position: relative;
+        z-index: 100;
+        
+        md-card-title-media {
+            .md-media-lg {
+                height: auto;
+            }
+        }
+        
+        md-card-title-text {
+            .md-button {
+                min-width: 155px;
+                max-width: 220px;
+            }
+        }
+    }
+}
+
+/* Misc */
+.no-padding-top {
+    padding-top: 0 !important;
+}
+
+@media screen and (max-width: 1279px) {
+    #nebula {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    html, body {
+        background-color: #86360A;
+    }
+    
+    #nebula {
+        background-image: none;
+    }
+    
+    #anaBoca {
+        md-card {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+    }
+}
