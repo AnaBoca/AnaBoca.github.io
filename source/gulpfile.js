@@ -64,13 +64,13 @@ gulp.task('html', ['styles', 'scripts:app'], function () {
 });
 
 gulp.task('images', function () {
-	return gulp.src('content/images/**/*')
-		.pipe($.cache($.imagemin({
+	return gulp.src('content/img/**/*')
+		.pipe(/*$.cache(*/$.imagemin({
 			optimizationLevel: 3,
 			progressive: true,
 			interlaced: true
-		})))
-		.pipe(gulp.dest('dist/images'))
+		}))//)
+		.pipe(gulp.dest('dist/content/img'))
 		.pipe($.size());
 });
 

@@ -3,6 +3,7 @@ module app {
     'use strict';
     
     export class HomeCtrl {
+        static $inject = ['$scope', '$mdMedia', 'smoothScroll']
         constructor($scope, private $mdMedia, smoothScroll) {
             
             $scope.scrollTo = (id) => {
