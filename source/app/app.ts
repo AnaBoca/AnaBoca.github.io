@@ -6,8 +6,9 @@
 module app {
     'use strict';
     angular.module('anaBoca', ['ngMaterial', 'angular-parallax', 'smoothScroll', 'ipsum'])
-    .config(function($mdThemingProvider) {
-        $mdThemingProvider.theme('default')
-            .primaryPalette('amber');
-    });
+        .config(function($mdThemingProvider) {
+            $mdThemingProvider.theme('default')
+                .primaryPalette('amber');
+        })
+        .controller('HomeCtrl', HomeCtrl);
 }

@@ -1,5 +1,5 @@
 /// <reference path='_all.ts' />
-module todos {
+module app {
     'use strict';
     
     export class HomeCtrl {
@@ -20,6 +20,4 @@ module todos {
             }
         }
     }
-    
-    angular.module('anaBoca').controller('HomeCtrl', HomeCtrl);
 }
