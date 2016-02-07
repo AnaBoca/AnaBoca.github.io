@@ -87,6 +87,14 @@ md-sidenav {
                 max-width: 220px;
             }
         }
+        
+        ul li a {
+            color: #AA5715;
+            
+            &:visited {
+                color: #167B57;
+            }
+        }
     }
 }
 
