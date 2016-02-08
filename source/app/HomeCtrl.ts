@@ -19,6 +19,10 @@ module app {
             $scope.gtXs = () => {
                 return this.$mdMedia('gt-xs');
             }
+            
+            $scope.gtMd = ()=>{
+                return this.$mdMedia('gt-md');
+            }
         }
     }
 }

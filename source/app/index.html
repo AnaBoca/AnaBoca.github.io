@@ -26,7 +26,7 @@
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     
-    <div id="nebula" ng-if="gtXs()" parallax-background parallax-ratio="0.2"></div>
+    <div id="nebula" ng-if="gtXs()" parallax-background parallax-ratio="0.2" parallax-if="gtMd()"></div>
     
     <md-content id="anaBoca">
         <md-sidenav md-is-locked-open="$mdMedia('gt-md')">
