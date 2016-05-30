@@ -2,8 +2,8 @@
   "name": "angular-typescript-gulp-seed",
   "private": true,
   "dependencies": {
-    "angular": "~1.4.8",
-    "angular-material": "~1.0.4",
+    "angular": "~1.5.0",
+    "angular-material": "~1.0.5",
     "angular-parallax": "~0.0.2",
     "ngSmoothScroll": "~2.0.0"
   },
@@ -12,6 +12,6 @@
     "mocha": "~2.0.1",
     "chai": "~1.10.0",
     "sinon-chai": "~2.6.0",
-    "angular-mocks": "~1.4.8"
+    "angular-mocks": "~1.5.0"
   }
 }
