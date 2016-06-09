@@ -10,6 +10,10 @@ h3.post-title a {
     color: #616161;
 }
 
+.content {
+    margin-top: 100px;
+}
+
 .post-body h3 {
     margin-top: 2em;
     margin-bottom: 1em;
