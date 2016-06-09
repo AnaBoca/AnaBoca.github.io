@@ -14,8 +14,15 @@ h3.post-title a {
     margin-top: 100px;
 }
 
+header {
+    min-height: 221px;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    padding-bottom: 20px;
+    padding-top: 22px;
+}
+
 #header-inner {
-    margin-left: 200px;
+    margin-left: 180px;
 }
 
 #header-inner:before {
@@ -27,8 +34,8 @@ h3.post-title a {
     bottom: 0;
     background-image: url(https://anaboca.github.io/content/img/ana.jpg);
     background-repeat: no-repeat;
-    background-size: 190px 221px;
-    width: 190px;
+    background-size: 150px 221px;
+    width: 150px;
     height: 221px;
 }
 
