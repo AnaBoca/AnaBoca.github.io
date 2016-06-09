@@ -7,5 +7,6 @@ h3.post-title a {
 }
 
 .post-body h3 {
+    margin-top: 2em;
     margin-bottom: 1em;
 }
