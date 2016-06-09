@@ -16,7 +16,7 @@ h3.post-title a {
     font-size: 24px;
 }
 
-body-fauxcolumns .cap-top > .cap-left:after {
+.body-fauxcolumns .cap-top > .cap-left:after {
     content: '';
     position: absolute;
     top: 0;
