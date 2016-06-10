@@ -59,6 +59,14 @@ header {
     font-size: 24px;
 }
 
+.post-body a {
+    color: #AA5715;
+}
+
+.post-body a:visited {
+    color: #167B57;
+}
+
 .body-fauxcolumns {
     position: fixed;
 }
