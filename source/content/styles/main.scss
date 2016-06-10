@@ -44,6 +44,14 @@ p, li {
     background-repeat: no-repeat;
     width: 152px;
     height: 221px;
+    border: 1px solid #757575;
+    margin: 20px;
+}
+
+.nav-buttons {
+    .md-button {
+        min-width: 170px;
+    }
 }
 
 $nebulaHeight: 400px;
