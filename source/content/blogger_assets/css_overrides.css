@@ -37,6 +37,20 @@ header {
     background-size: 150px 221px;
     width: 150px;
     height: 221px;
+    border: 1px solid #757575;
+}
+
+.header-inner .Header .titlewrapper {
+    padding: 0 0 10px 0;
+    margin-top: -7px;
+}
+
+.Header .description  {
+    font-size: 16px;
+}
+
+.main-inner {
+    padding-top: 45px;
 }
 
 .post-body h3 {
