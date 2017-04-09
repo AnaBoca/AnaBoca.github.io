@@ -17,7 +17,7 @@ h1 {
     margin: 0;
 }
 
-h2, h3, h4 {
+h2, h3, h4, .h4 {
     color: #616161;
     font-family: 'Roboto','Helvetica','Arial',sans-serif;
     font-weight: 200;
@@ -30,6 +30,10 @@ h2 {
 
 h3 { font-size: 24px; }
 
+h4, .h4 {
+    font-size: 16px;
+}
+
 p, li {
     color: rgba(0,0,0,.87);
     font-size: 14px;
@@ -38,11 +42,11 @@ p, li {
 }
 
 .profile-pic {
-    max-width: 150px;
+    max-width: 220px;
     background-image: url('/content/img/ana.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 152px;
+    width: 220px;
     height: 221px;
     border: 1px solid #757575;
     margin: 20px;
@@ -145,4 +149,12 @@ md-sidenav {
             margin-bottom: 20px;
         }
     }
+}
+
+.m-b-0 {
+    margin-bottom: 0;
+}
+
+.m-t-0 {
+    margin-top: 0;
 }
